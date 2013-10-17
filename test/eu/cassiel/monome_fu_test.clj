@@ -1,4 +1,4 @@
-(ns cassiel.monome-fu-test
+(ns eu.cassiel.monome-fu-test
   (:use clojure.test
         cassiel.monome-fu))
 

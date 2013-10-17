@@ -1,11 +1,19 @@
 (ns user
-  (:require (cassiel.zeroconf [client :as cl]))
+  (:require (cassiel.zeroconf [client :as cl])
+            (eu.cassiel.monome-fu [network :as n]
+                                  [connect :as c]))
   (:import [java.net InetAddress DatagramSocket]
            [net.loadbang.osc.data Message]
            [net.loadbang.osc.comms UDPTransmitter UDPReceiver]
            [net.loadbang.osc.exn CommsException]))
 
-;; --- checking zeroconf:
+;; --- Basic comms:
+
+(def rx (n/start-receiver 5001 println))
+
+(.close rx)
+
+;; --- checking zeroconf (which we don't actually use any more):
 
 (def a (cl/listen "_monome-osc._udp.local."))
 

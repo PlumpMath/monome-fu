@@ -1,4 +1,4 @@
-(ns cassiel.monome-fu)
+(ns eu.cassiel.monome-fu)
 
 (defn foo
   "I don't do a whole lot."
