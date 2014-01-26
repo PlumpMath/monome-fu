@@ -1,6 +1,6 @@
 (defproject eu.cassiel/monome-fu "0.2.2-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Generic library for talking to monome devices via serialosc."
+  :url "https://github.com/cassiel/monome-fu"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[eu.cassiel/clojure-zeroconf "1.2.0"]
