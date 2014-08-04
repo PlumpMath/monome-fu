@@ -1,10 +1,8 @@
 # `monome-fu` [![Dependency Status](https://www.versioneye.com/user/projects/52e4de82ec1375580400009e/badge.png)](https://www.versioneye.com/user/projects/52e4de82ec1375580400009e)
 
-A Clojure library designed to ... well, that part is up to you.
-
 ## Usage
 
-FIXME
+[![Clojars Project](http://clojars.org/eu.cassiel/monome-fu/latest-version.svg)](http://clojars.org/eu.cassiel/monome-fu)
 
 ## License
 
